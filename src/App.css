@@ -1,0 +1,72 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,400italic);
+
+body {
+  background-color:  #ecf0e7;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  color: #8ea7c;
+}
+/*
+a, a:focus, a:hover, a:visited {
+  color: #b8cca6;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.userCard{
+  display: inline;
+  float: left;
+  cursor: pointer;
+}
+
+
+.contenta .contenta-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.contenta:hover .contenta-overlay{
+  opacity: 1;
+}
+
+.is-4by3 {
+  margin-left: 0em;
+  margin-right: 0em;
+}
